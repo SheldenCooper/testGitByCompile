@@ -1,0 +1,6 @@
++	MOV AX,A
+	ADD AX,B
+	MOV AX,A
+-	MOV AX,A
+	SUB AX,B
+	MOV AX,A

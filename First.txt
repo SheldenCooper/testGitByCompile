@@ -1,0 +1,22 @@
+文法的FIRST集如下：
+P:8 i ; 
+Q:8 
+J:( 
+K:i { ; 
+H:$ f 9 
+S:i 
+V:i 
+E:( i 
+R:$ + - 
+T:( i 
+Y:$ * / 
+F:( i 
+A:+ - 
+M:* / 
+Z:$ t d u e g l 
+C:( i 
+I:a $ o 
+B:( i 
+X:a o 
+O:t d u e g l 
+U:$ 8 i ; { 

@@ -1,0 +1,46 @@
+
+
+				LL(1)分析表			
+	8	9	f	=	i	+	-	*	/	(	)	{	}	;	a	o	t	d	g	l	e	u	#	$
+P
+	P->Q				P->S									P->;										
+Q
+	Q->8JKH																							
+J
+										J->(E)														
+K
+					K->S							K->{U}		K->;										
+H
+	H->$	H->9K	H->fJKH		H->$							H->$	H->$	H->$									H->$	
+S
+					S->V=E;																			
+V
+					V->i																			
+E
+					E->TR					E->TR														
+R
+						R->ATR	R->ATR				R->$			R->$										
+T
+					T->FY					T->FY														
+Y
+						Y->$	Y->$	Y->MFY	Y->MFY		Y->$			Y->$										
+F
+					F->CZ					F->CZ														
+A
+						A->+	A->-																	
+M
+								M->*	M->/															
+Z
+						Z->$	Z->$	Z->$	Z->$		Z->$			Z->$			Z->OCZ	Z->OCZ	Z->OCZ	Z->OCZ	Z->OCZ	Z->OCZ		
+C
+					C->BI					C->BI														
+I
+						I->$	I->$	I->$	I->$		I->$			I->$	I->XBI	I->XBI	I->$	I->$	I->$	I->$	I->$	I->$		
+B
+					B->i					B->(E)														
+X
+															X->a	X->o								
+O
+																	O->t	O->d	O->g	O->l	O->e	O->u		
+U
+	U->PU				U->PU							U->{U}U	U->$	U->PU										
