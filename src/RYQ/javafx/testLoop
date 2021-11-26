@@ -1,0 +1,6 @@
+  while(i>0)
+{
+    break;
+    if(i%2 == 1)
+	sum = sum+i;
+}

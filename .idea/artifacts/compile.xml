@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="compile">
+    <output-path>$PROJECT_DIR$/out/artifacts/compile</output-path>
+    <root id="archive" name="compile.jar" />
+  </artifact>
+</component>

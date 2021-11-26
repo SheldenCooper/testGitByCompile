@@ -1,0 +1,13 @@
+char    101
+int     102
+float   103
+break   104
+const   105
+return  106
+void    107
+continue    108
+do      109
+while   110
+if      111
+else    112
+for     113
